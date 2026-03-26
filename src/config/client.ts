@@ -79,8 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Kerri Hall", rating: 5, text: "Did a neat job of trimming our climbing hydrangea which was interfering with our gutters! And kindly cleared away all our leaves without us asking which saved us a job. Thank you!  ", date: "3 years ago" },
-    { name: "Louisa Green", rating: 5, text: "Nick did a fantastic job taming our out  control hedge. We will definitely be using his services again in the future.  ", date: "3 years ago" },
+    { name: "Kerri Hall", rating: 5, text: "Did a neat job of trimming our climbing hydrangea which was interfering with our gutters! And kindly cleared away all our leaves without us asking which saved us a job. Thank you!", date: "3 years ago", badge: "Local Guide" },
+    { name: "Louisa Green", rating: 5, text: "Nick did a fantastic job taming our out  control hedge. We will definitely be using his services again in the future.", date: "3 years ago", badge: "Local Guide" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
