@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "2",
 
   // Services
   services: [
@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Kerri Hall", rating: 5, text: "Did a neat job of trimming our climbing hydrangea which was interfering with our gutters! And kindly cleared away all our leaves without us asking which saved us a job. Thank you!  ", date: "3 years ago" },
+    { name: "Louisa Green", rating: 5, text: "Nick did a fantastic job taming our out  control hedge. We will definitely be using his services again in the future.  ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
